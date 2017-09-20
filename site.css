@@ -1,0 +1,19 @@
+.root {
+    background-color: #2E94B9;
+    height: 300px;
+    min-width: 95%;
+}
+.outer {
+background-color: #475053;
+height: 75%;  
+width: 75%;
+}
+.inner {
+background-color: #F0FBFF;
+height: 50%;
+width: 50%;
+}
+
+.p1, .p2, .p3 {
+    background:#ACDCEE;
+}

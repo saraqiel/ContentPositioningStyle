@@ -1,0 +1,86 @@
+[cml] {
+  max-width: 98% !important;
+}
+[cml], [cml] * {
+    position: relative;
+    display: block !important;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+
+  [cml] .hv-fill{
+    height: 100%;
+    width: 100%;
+  }
+  [cml] .hor-fill {
+    width: 100% !important;
+  }
+
+  [cml] .ver-fill{
+    height: 100% !important;
+  }
+  [cml] .x-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%)!important;
+  }
+  [cml] .x-left {
+    position: absolute;
+    left: 0% !important;
+    transform: translateX(-0%);
+  }
+  [cml] .x-right {
+    position: absolute;
+    left: 100%;
+    transform: translateX(-100%)!important;
+  }
+
+  [cml] .y-center {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) !important;
+  }
+  [cml] .y-center-x-left {
+    position: inherit;
+    top: 50%;
+    left: 0%;
+    transform: translate(-0%, -100%) !important;
+  }
+  [cml] .y-center-x-right {
+    position: inherit;
+    top: 50%;
+    left:100%;
+    transform: translate(-100%, -100%) !important;
+  }
+  [cml] .y-bottom {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -100%)!important;
+  }
+  [cml] .y-bottom-x-left {
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    transform: translate(-0%, -100%)!important;
+  }
+  [cml] .y-bottom-x-right {
+    position: absolute;
+    left: 100%;
+    top:100%;
+    transform: translate(-100%, -100%) !important;
+  }
+  [cml] .xy-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 25%) !important;
+  }
+  p, h1, h2, h3, h4, h5, h6, a, title, figcaption, img, svg {
+    z-index: 1;
+  }
+
+  [cml] .clmn {
+    float:left;
+  }
+
