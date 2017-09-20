@@ -4,7 +4,7 @@
 [cml], [cml] * {
     position: relative;
     display: block !important;
-    margin: 0 auto;
+    margin: 0 auto !important;
     box-sizing: border-box;
   }
 
@@ -36,18 +36,18 @@
   }
 
   [cml] .y-center {
-    position: absolute;
+    position: inherit;
     top: 50%;
     transform: translateY(-50%) !important;
   }
   [cml] .y-center-x-left {
-    position: inherit;
+    position: absolute;
     top: 50%;
     left: 0%;
     transform: translate(-0%, -100%) !important;
   }
   [cml] .y-center-x-right {
-    position: inherit;
+    position: absolute;
     top: 50%;
     left:100%;
     transform: translate(-100%, -100%) !important;
@@ -74,7 +74,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 25%) !important;
+    transform: translate(-50%, -50%) !important;
   }
   p, h1, h2, h3, h4, h5, h6, a, title, figcaption, img, svg {
     z-index: 1;
@@ -83,4 +83,3 @@
   [cml] .clmn {
     float:left;
   }
-
